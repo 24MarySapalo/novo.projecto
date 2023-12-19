@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #9a8080, rgba(156, 155, 156, 0.8)); /* Gradiente com opacidade na parte inferior */
+}
+
+.top-section {
+    text-align: center;
+    background: linear-gradient(to bottom, #fe8f8f, rgba(156, 155, 156, 0.8)); /* Gradiente com opacidade na parte inferior */
+    padding: 20px;
+    color: #fff;
+    height: 100vh; /* 100% da altura da tela */
+    width: 100%; /* 100% da largura da tela */
+    box-sizing: border-box;
+     
+    
+}
+h1{
+    text-align: left;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 20px; /* Ajuste a margem inferior conforme necessário */
+    margin-top: 40px;
+    
+}
+
+
+ input{
+   
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+
+.bottom-section {
+    text-align: center;
+    margin-top: -46px;
+    background: linear-gradient(to bottom, #b477c4, rgba(173, 145, 178, 0.8)); /* Gradiente com opacidade na parte inferior */
+    padding: 20px;
+    height: 100vh; /* 100% da altura da tela */
+    width: 100%; /* 100% da largura da tela */
+    border-top-left-radius: 45px; /* Arredondar canto superior esquerdo */
+    border-top-right-radius: 45px;
+}
+
+button {
+    padding: 10px;
+    background-color: #927583;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    font-weight: bold;
+    
+}
+
+
+button:hover {
+    background-color: #a891a4;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Label-float {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.Label-float input {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #060606;
+    margin-top: 45px;
+    
+}
+
+.Label-float label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    padding: 5px;
+    transition: 0.2s ease all;
+    margin-top: 35px;
+}
+
+.Label-float input:focus + label,
+.Label-float input:not(:placeholder-shown) + label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    color: #060606;
+    font-weight: bold;
+}
+
+
+ /* Estilo para os contêineres dos ícones */
+.icon-container {
+    
+    display: inline-block;
+    margin: 10px; /* Margem entre os ícones */
+    background-color: white; /* Cor de fundo do retângulo branco */
+    border-radius: 4px; /* Borda arredondada do retângulo branco */
+    width: 35px; /* Largura desejada do retângulo (ajuste conforme necessário) */
+    height: 20px;
+    overflow: hidden; /* Ocultar qualquer conteúdo que ultrapasse as bordas do contêiner */
+}
+
+.icon-container:hover {
+    background-color: #e9d9e4;
+
+}
+
+/* Estilo para os ícones dentro dos contêineres */
+.icon-container img {
+    
+    width: auto; /* Ajusta a largura da imagem para 100% do contêiner */
+    height: 80%; /* Ajusta a altura da imagem para 100% do contêiner */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre completamente o espaço do contêiner */
+    display: block; 
+    object-fit: cover;
+    display: block;
+    
+    /* Adições para centralizar a imagem */
+    margin: auto; /* Centraliza horizontalmente */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* Remove espaço extra abaixo da imagem quando definimos a altura automática */
+}
+
+p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.Cadastro {
+    text-decoration: none; /* Remove o sublinhado padrão */
+    color: #ffffff; /* Define a cor do texto (substitua pela cor desejada) */
+    font-weight: bold; /* Opcional: Define a espessura da fonte como negrito */
+}
+
+.Cadastro:hover {
+    text-decoration: none; /* Adiciona sublinhado ao passar o mouse */
+    color: #792567; /* Opcional: Muda a cor do texto ao passar o mouse */
+}
+
+
+.Sign {
+   font-size: 14px;
+    color: #ffffff; /* Define a cor do texto (substitua pela cor desejada) */
+    font-weight: bold; /* Opcional: Define a espessura da fonte como negrito */
+}
+
+/* Estilos para telas grandes (por exemplo, desktops) */
+@media only screen and (min-width: 1200px) {
+    .icon-container {
+        width: 40px; /* Ajuste o tamanho conforme necessário para telas grandes */
+        height: 30px;
+    }
+}
+
+/* Estilos para telas médias (por exemplo, tablets) */
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+    .icon-container {
+        width: 40px; /* Ajuste o tamanho conforme necessário para telas médias */
+        height: 30px;
+    }
+}
+
+/* Estilos para telas pequenas (por exemplo, smartphones) */
+@media only screen and (max-width: 767px) {
+    .icon-container {
+        width: 40px; /* Ajuste o tamanho conforme necessário para telas pequenas */
+        height: 20px;
+    }
+}

@@ -1,0 +1,86 @@
+*{
+
+    background-color: white;
+}
+
+
+
+.section-Link a {
+    margin: 0 30px; /* Espaçamento horizontal entre os links */
+    color: #000; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado dos links */
+    font-size: 20px; /* Tamanho da fonte dos ícones */
+}
+
+
+.button-container {
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+    margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+}
+
+.white-button {
+    background-color: #CC1A74; /* Cor de fundo do botão */
+    color: #FFFFFF; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: 2px solid #000000; /* Borda do botão */
+    border-radius: 18px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    width: 349px;
+    height: 50px;
+}
+
+.white-button:hover {
+    background-color: #b24c7f; /* Cor de fundo ao passar o mouse sobre o botão */
+}
+
+div {
+    text-align: center;
+    margin-top: 20px; /* Adicione margem para separar do conteúdo acima */
+}
+
+/* Estilos para o link */
+.beck_menu {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000; /* Cor do texto */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Estilos hover para o link */
+.beck_menu:hover {
+    color: #2980b9; /* Cor de fundo ao passar o mouse */
+}
+
+.Label-float {
+    position: relative;
+    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+}
+
+.Label-float input {
+    width: 80%; /* Preenche toda a largura do contêiner */
+    padding: 10px; /* Adiciona preenchimento interno */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    border: 2px solid #ccc; /* Adiciona uma borda com cor cinza */
+    border-radius: 10px; /* Arredonda as bordas */
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+.Label-float label {
+    position: absolute;
+    top: 0;
+    left:-10px; /* Adiciona um recuo ao lado esquerdo para a animação */
+    padding: 5px;
+    font-size: 14px; /* Ajusta o tamanho da fonte do rótulo */
+    pointer-events: none; /* Garante que o rótulo não interfira nos eventos do mouse */
+    transition: 0.3s ease-out; /* Adiciona uma transição suave */
+   
+}
+
+.Label-float input:focus + label,
+.Label-float input:not(:placeholder-shown) + label {
+    top: -15px; /* Move o rótulo para cima quando o input está focado ou tem conteúdo */
+    font-size: 12px; /* Ajusta o tamanho da fonte do rótulo quando movido para cima */
+    color: #2980b9; /* Altera a cor do rótulo quando o input está focado ou tem conteúdo */
+}

@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #D11770, #8F369A, #644AB5);
+    /*background-image: url('./Img/Caroucell/back3.jfif'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    /* Cor de fundo branca */
+    border-radius: 50%;
+    width: 400px;
+    /* Largura maior que a imagem para criar espaço ao redor */
+    height: 900px;
+    /* Altura maior que a imagem para criar espaço ao redor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BoasVindas {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    transform: translate(-90%, -50%);
+
+}
+
+.cor-comum {
+    color: #540d0d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.BoasVindas .destaque {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Estilos padrão para todos os tamanhos de tela */
+
+/* Adicione seus estilos existentes aqui */
+
+/* Consulta de mídia para dispositivos com uma largura máxima de 767px (smartphones típicos) */
+@media only screen and (max-width: 767px) {
+
+    /* Ajuste os estilos para telas menores aqui */
+    .Conteiner {
+        /* Exemplo: Defina o tamanho da fonte para telas menores */
+        font-size: 14px;
+    }
+
+    .principal-image {
+
+        max-width: 90%;
+
+
+    }
+
+    /* Você pode substituir ou adicionar estilos específicos para telas menores */
+}
+
+/* Consulta de mídia para dispositivos com uma largura mínima de 768px e máxima de 991px (tablets típicos) */
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+
+    /* Ajuste os estilos para telas de tamanho médio aqui */
+    .Conteiner {
+        /* Exemplo: Ajuste a largura de um contêiner para tablets */
+        max-width: 90%;
+    }
+
+    .principal-image {
+        max-width: 75%;
+        justify-content: center;
+
+    }
+
+    .ellipse-container {
+
+        max-width: 100%;
+        margin: 0 auto;
+        left: 5%;
+
+    }
+
+    /* Você pode substituir ou adicionar estilos específicos para telas de tamanho médio */
+}
+
+
+
+
+/* Consulta de mídia para dispositivos com uma largura mínima de 992px (desktops típicos) */
+@media only screen and (min-width: 1200px) {
+
+    /* Ajuste os estilos para telas maiores aqui */
+    .Conteiner {
+        /* Exemplo: Ajuste a largura de um contêiner para desktops */
+        max-width: 1200px;
+    }
+
+    .principal-image {
+        max-width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+        display: block;
+        left: 90%;
+    }
+
+    .ellipse-container {
+
+        max-width: 100%;
+        margin: 0 auto;
+        left: 15%;
+
+    }
+    .button-container {
+        position: relative;
+        left: 20%;
+        transform: translateX(-50%);
+        text-align: left; /* Aqui já está alinhado à direita */
+        margin-top: -90px;
+        bottom: 50px;
+        border: 100px;
+        /* text-align: right; */ /* Não precisa duplicar a propriedade */
+    }
+    
+    
+    
+
+}
+
+
+
+
+
+header {
+    background: #3498db;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+
+
+.ellipse-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Imagem-Principal {
+    width: 100vw;
+    height: 00vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Principal-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ellipse-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.button-container {
+    /*text-align: center;
+        margin-top: -90px;
+        top: 650px;
+        left: -120px;*/
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: -90px;
+    bottom: 50px;
+    border: 100px;
+    /*width: 50%;*/
+    /*font-size: 1.5em;*/
+
+}
+
+
+
+
+.white-button {
+    background-color: #ffffff;
+    /* Cor de fundo do botão (branco) */
+    color: #000000;
+    /* Cor do texto do botão (preto) */
+    padding: 8px 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 45px;
+    width: 200px;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold;
+
+}
+
+.white-button:hover {
+    background-color: #cccccc;
+    /* Cor de fundo do botão ao passar o mouse (cinza claro) */
+}
+
+
+
+
+
+.ellipse-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.principal-image {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 370px;
+    /* ajuste conforme necessário */
+    height: 370px;
+    /* ajuste conforme necessário */
+    object-fit: cover;
+    /* para manter a proporção da imagem */
+}
