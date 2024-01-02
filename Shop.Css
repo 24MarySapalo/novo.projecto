@@ -15,18 +15,155 @@ body {
 
 .container {
     position: relative;
-    width: 250px; /* Ajuste conforme necessário */
-    height: 200px; /* Ajuste conforme necessário */
+    width: 250px;
+    /* Ajuste conforme necessário */
+    height: 200px;
+    /* Ajuste conforme necessário */
 }
 
 @keyframes rotateAnimation {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
 }
+
+
+
+.Avaliacao {
+
+    display: inline-block;
+    /* Isso faz com que os blocos fiquem em linha */
+    margin: 10px;
+    /* Ajuste conforme necessário para o espaçamento desejado */
+    top: -14rem;
+    position: relative;
+}
+
+.Icone{
+
+    width: 4rem;
+    height: 2.3rem;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color:  #CC1A74;
+    
+    
+}
+
+.custom-icone{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #B4AC03;
+    position: relative;
+    
+    
+}
+.cone{
+  
+    top: 0.5em;
+    position: relative;
+    left: -0.3rem;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.preco{
+    position: relative;
+    left: 20rem;
+    top: -2rem;
+    color: #B4AC03;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.Texto {
+
+    display: inline-block;
+    /* Isso faz com que os blocos fiquem em linha */
+    margin: 10px;
+    /* Ajuste conforme necessário para o espaçamento desejado */
+    top: -3rem;
+    position: relative;
+}
+
+.textp {
+
+    position: relative;
+    left: -7.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: black;
+
+}
+
+.icone {
+
+    position: relative;
+    left: -6rem;
+    font-weight: bold;
+    top: -2rem;
+    left: 8rem;
+    color: #D11770;
+
+}
+
+.custom-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+
+.conteriner_frase {
+    z-index: 2;
+    position: relative;
+    border-radius: 2rem;
+    left:-2.5rem;
+    top: -2rem;
+
+    background-color: transparent;
+
+
+}
+
+.Frase1,
+.Frase2,
+.old,
+.textp,
+.textt {
+    position: relative;
+    background-color: transparent;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.Frase1 {
+    color:rgb(138, 118, 118);
+    font-size: 1.2rem;
+    left:  2rem ;
+}
+
+.Frase2 {
+    color:rgb(138, 118, 118);
+    font-size: 1.2rem;
+    left: 1rem;
+    top: -1rem;
+}
+
+.old{
+
+    color:rgb(11, 11, 11);
+    font-size: 1.2rem;
+    left: -6rem;
+    top: -1rem;  
+}
+
+
 
 .rombo-container {
     position: absolute;
@@ -36,7 +173,8 @@ body {
     height: 100%;
     background: linear-gradient(45deg, rgba(197, 116, 159, 0.5) 0%, rgba(140, 129, 140, 0.5) 100%);
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    animation: rotateAnimation 5s linear infinite; /* 5s de duração, linear, repetição infinita */
+    animation: rotateAnimation 5s linear infinite;
+    /* 5s de duração, linear, repetição infinita */
 }
 
 img {
@@ -45,58 +183,86 @@ img {
     left: 33px;
     width: 100%;
     height: 100%;
-    object-fit: contain; 
-    z-index: 1; /* Coloca a imagem acima do rombo */
+    object-fit: contain;
+    z-index: 1;
+    /* Coloca a imagem acima do rombo */
 }
 
 .separador {
     border-radius: 50px 0 0 9px;
-    height: 1000px; /* Ajuste a altura conforme necessário */
-    background-color: #edf1f4; /* Cor do separador */
-    margin-top: 170px; /* Margem superior */
-    margin-bottom: 20px; /* Margem inferior */
+    height: 1000px;
+    /* Ajuste a altura conforme necessário */
+    background-color: #edf1f4;
+    /* Cor do separador */
+    margin-top: 170px;
+    /* Margem superior */
+    margin-bottom: 20px;
+    /* Margem inferior */
     /* Adicione outros estilos conforme necessário */
     position: fixed;
     width: 100vw;
-    text-align: center; /* Centraliza o conteúdo dentro do separador */
-     margin-top: 60px; /* Ajuste a margem superior conforme necessário */
-    }
+    text-align: center;
+    /* Centraliza o conteúdo dentro do separador */
+    margin-top: 60px;
+    /* Ajuste a margem superior conforme necessário */
+}
 
-    
 
-    .image-container {
-        display: flex; /* Torna o container de imagem um flex container */
-        justify-content: space-between; /* Alinha as imagens nas extremidades */
-        margin: 20px 0; /* Adiciona margem vertical entre as imagens e outros elementos */
-    }
 
-    .image-box {
-        position: relative; /* Permite posicionar a descrição absolutamente dentro do quadrado */
-        width: 150px; /* Largura do quadrado */
-        height: 150px; /* Altura do quadrado */
-        overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse as dimensões do quadrado */
-    }
+.image-container {
+    display: flex;
+    position: relative;
+    /* Torna o container de imagem um flex container */
+    justify-content: space-between;
+    /* Alinha as imagens nas extremidades */
+    margin: 20px 0;
+    /* Adiciona margem vertical entre as imagens e outros elementos */
+    top: -8rem;
+}
 
-    .image-box img {
-        width: 100%; /* Garante que a imagem ocupa 100% da largura do quadrado */
-        height: auto; /* Mantém a proporção da imagem */
-    }
+.image-box {
+    position: relative;
+    /* Permite posicionar a descrição absolutamente dentro do quadrado */
+    width: 150px;
+    /* Largura do quadrado */
+    height: 150px;
+    /* Altura do quadrado */
+    overflow: hidden;
+    /* Oculta qualquer conteúdo que ultrapasse as dimensões do quadrado */
+}
 
-    .image-description {
-        position: absolute; /* Posiciona a descrição absolutamente dentro do quadrado */
-        bottom: 0; /* Alinha a descrição na parte inferior do quadrado */
-        left: 0; /* Alinha a descrição à esquerda do quadrado */
-        width: 100%; /* Garante que a descrição ocupe toda a largura do quadrado */
-        background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo da descrição com transparência */
-        padding: 8px; /* Espaçamento interno da descrição */
-        text-align: center; /* Centraliza o texto na descrição */
-    }
+.image-box img {
+    width: 100%;
+    /* Garante que a imagem ocupa 100% da largura do quadrado */
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.image-description {
+    position: absolute;
+    /* Posiciona a descrição absolutamente dentro do quadrado */
+    bottom: 0;
+    /* Alinha a descrição na parte inferior do quadrado */
+    left: 0;
+    /* Alinha a descrição à esquerda do quadrado */
+    width: 100%;
+    /* Garante que a descrição ocupe toda a largura do quadrado */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Cor de fundo da descrição com transparência */
+    padding: 8px;
+    /* Espaçamento interno da descrição */
+    text-align: center;
+    /* Centraliza o texto na descrição */
+}
 
 
 .button-container {
-    display: inline-block; /* Permite que o container se ajuste ao tamanho do conteúdo */
+    position: relative;
+    display: inline-block;
+    /* Permite que o container se ajuste ao tamanho do conteúdo */
     margin-top: 10px;
-    
+    top: -7rem;
+
 }
 
 .white-button {
@@ -107,8 +273,10 @@ img {
     color: rgb(224, 232, 237);
     border: 1px solid #CC1A74;
     cursor: pointer;
-    border-radius: 45px; /* Arredondar canto superior esquerdo */
+    border-radius: 45px;
+    /* Arredondar canto superior esquerdo */
     width: 300px;
+    font-weight: bold;
 }
 
 button:hover {
@@ -132,34 +300,44 @@ button:hover {
     height: 100px;
     overflow: hidden;
     border-radius: 10px;
-    margin-right: 20px; /* Adiciona margem entre as imagens */
-    background-color: rgba(142, 110, 110, 0.5); /* Cor branca com 50% de transparência */
-    
-    
+    margin-right: 20px;
+    /* Adiciona margem entre as imagens */
+    background-color: rgba(142, 110, 110, 0.5);
+    /* Cor branca com 50% de transparência */
+
+
 }
 
 
 .image-box:nth-child(1) {
-    top:10px; /* Ajuste a posição vertical conforme necessário */
-    left: 30px; /* Ajuste a posição horizontal conforme necessário */
+    top: 10px;
+    /* Ajuste a posição vertical conforme necessário */
+    left: 30px;
+    /* Ajuste a posição horizontal conforme necessário */
 }
 
 .image-box:nth-child(2) {
-    top: 10px; /* Ajuste a posição vertical conforme necessário */
-    left: 30px; /* Ajuste a posição horizontal conforme necessário */
+    top: 10px;
+    /* Ajuste a posição vertical conforme necessário */
+    left: 30px;
+    /* Ajuste a posição horizontal conforme necessário */
 }
 
 .image-box:nth-child(3) {
-    top: 10px; /* Ajuste a posição vertical conforme necessário */
-    left: 20px; /* Ajuste a posição horizontal conforme necessário */
+    top: 10px;
+    /* Ajuste a posição vertical conforme necessário */
+    left: 20px;
+    /* Ajuste a posição horizontal conforme necessário */
 }
 
-    
+
 
 
 .image-box img {
-    width: 150px; /* Ajuste o tamanho desejado */
-    height: 150px; /* Ajuste o tamanho desejado */
+    width: 150px;
+    /* Ajuste o tamanho desejado */
+    height: 150px;
+    /* Ajuste o tamanho desejado */
     border-radius: 10px;
     object-position: 100% 10%;
     top: -1px;
@@ -171,7 +349,8 @@ button:hover {
     top: 80px;
     right: 0;
     left: 50px;
-    color: #28a745; /* Cor verde */
+    color: #28a745;
+    /* Cor verde */
     font-size: 15px;
     cursor: pointer;
     bottom: 56px;
@@ -179,48 +358,192 @@ button:hover {
 
 
 .Texto {
-    font-family: Arial, sans-serif; /* Escolha uma fonte que desejar */
-    color: #333; /* Cor do texto padrão */
+    font-family: Arial, sans-serif;
+    /* Escolha uma fonte que desejar */
+    color: #333;
+    /* Cor do texto padrão */
     margin-top: 140px;
-    
-    
-    
+
+
+
 
 }
 
 .titulo {
-    color: #ff4500; /* Cor específica para o título */
-    font-size: 24px; /* Tamanho da fonte para o título */
-    font-weight: bold; /* Negrito para o título, se necessário */
-    margin-bottom: 60px; /* Espaço abaixo do título */
+    color: #ff4500;
+    /* Cor específica para o título */
+    font-size: 24px;
+    /* Tamanho da fonte para o título */
+    font-weight: bold;
+    /* Negrito para o título, se necessário */
+    margin-bottom: 60px;
+    /* Espaço abaixo do título */
     margin-top: 66px;
     margin-left: -200px;
-  
-    
+
+
 }
 
 .i {
-    margin-left: 50px; /* Ajustar a margem esquerda do ícone */
+    margin-left: 50px;
+    /* Ajustar a margem esquerda do ícone */
 }
 
 .Texto p:not(.titulo) {
-    margin-top: 5px; /* Espaço acima do segundo e terceiro parágrafo */
-    margin-bottom: 10px; /* Espaço abaixo do segundo e terceiro parágrafo */
+    margin-top: 5px;
+    /* Espaço acima do segundo e terceiro parágrafo */
+    margin-bottom: 10px;
+    /* Espaço abaixo do segundo e terceiro parágrafo */
     margin-left: -100px;
 }
 
 .Texto p {
-    margin-top: 50px; /* Espaço acima de cada parágrafo */
-    margin-bottom: -10px; /* Espaço abaixo de cada parágrafo */
+    margin-top: 50px;
+    /* Espaço acima de cada parágrafo */
+    margin-bottom: -10px;
+    /* Espaço abaixo de cada parágrafo */
+
+}
+
+.old {
+
+    margin-bottom: 20px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+   
     
+
+    /* ... (outros estilos responsivos) ... */
+}
+@media (min-width: 767px) and (max-width: 767px) {
+   
+    
+
+    /* ... (outros estilos responsivos) ... */
 }
 
-.old{
 
-  margin-bottom: 20px;
+@media (min-width: 768px) and (max-width: 1200px) {
+    /* Estilos para telas de tamanho médio (largura entre 481px e 767px) */
+
+    .Avaliacao {
+
+      
+        /* Isso faz com que os blocos fiquem em linha */
+        margin: 10px;
+        /* Ajuste conforme necessário para o espaçamento desejado */
+        top: -6rem;
+        left: -2rem;
+      
+        width: 23rem;
+        
+    
+    }
+
+    .preco{
+        position: relative;
+        left: 30rem;
+        top: -2rem;
+       
+        font-size: 1.5rem;
+        
+    }
+    .icone {
+
+        position: relative;
+        left: -6rem;
+        font-weight: bold;
+        top: -2rem;
+        left: 28rem;
+        color: #D11770;
+    
+    }
+
+    .Texto {
+
+       
+        /* Isso faz com que os blocos fiquem em linha */
+        margin: 10px;
+        /* Ajuste conforme necessário para o espaçamento desejado */
+        top: 5rem;
+        left: -22rem;
+        
+    }
+    .image-container {
+       
+        top: -1rem;
+        
+    }
+
+    .button-container {
+       
+        top: 3rem;
+    
+    }
+   
+
 }
 
+@media (min-width:  1200px) and (max-width: 1600px) {
+    /* Estilos para telas de tamanho médio (largura entre 481px e 767px) */
 
+    .Avaliacao {
 
+      
+        /* Isso faz com que os blocos fiquem em linha */
+        margin: 10px;
+        /* Ajuste conforme necessário para o espaçamento desejado */
+        top: -6rem;
+        left: -4rem;
+      
+        width: 23rem;
+        
+    
+    }
+
+    .preco{
+        position: relative;
+        left: 32rem;
+        top: -2rem;
+       
+        font-size: 1.5rem;
+        
+    }
+    .icone {
+
+        position: relative;
+        left: -6rem;
+        font-weight: bold;
+        top: -2rem;
+        left: 28rem;
+        color: #D11770;
+    
+    }
+
+    .Texto {
+
+       
+        /* Isso faz com que os blocos fiquem em linha */
+        margin: 10px;
+        /* Ajuste conforme necessário para o espaçamento desejado */
+        top: 5rem;
+        left: -22rem;
+        
+    }
+    .image-container {
+       
+        top: -1rem;
+        
+    }
+
+    .button-container {
+       
+        top: 3rem;
+    
+    }
+   
+
+}
 
 

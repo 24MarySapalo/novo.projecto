@@ -1,41 +1,192 @@
-*{
+* {
 
     background-color: white;
+}
+
+.Gelato {
+    left: 2rem;
+
+
+
+
+
+}
+
+.rombo-Gelato {
+
+    width: 12rem;
+    height: 12rem;
+    background-color: #D9C9C9;
+    top: 1rem;
+    left: 2rem;
+    border-radius: 1rem;
+    position: relative;
+
+
+}
+
+.Gelado {
+    width: 8rem;
+    height: 8rem;
+    background: transparent;
+    top: 1.8rem;
+    position: relative;
+}
+
+.conteriner_frase {
+    position: relative;
+    left: 4.5rem;
+    top: -10rem;
+    background: transparent;
+}
+
+.Frase1 {
+    position: relative;
+    background: transparent;
+    font-weight: bolder;
+    left: -1.9rem;
+
+}
+
+
+.Frase2 {
+    position: relative;
+    background: transparent;
+    font-weight: bolder;
+    left: -1.9rem;
+    color: #B4AC03;
+
+}
+
+.Pizza {
+    left: 2rem;
+
+
+
+
+
+}
+
+.rombo-Pizza {
+
+    width: 12rem;
+    height: 12rem;
+    background-color: #D9C9C9;
+    top: -6rem;
+    left: 2rem;
+    border-radius: 1rem;
+    position: relative;
+
+
+}
+
+.Pizzaz {
+    width: 10rem;
+    height: 8rem;
+    background: transparent;
+    top: 1.8rem;
+    position: relative;
+    left: -0.4rem;
+}
+
+.conteriner_Frase {
+    position: relative;
+    left: 4.5rem;
+    top: -17rem;
+    background: transparent;
+}
+
+.Frase1 {
+    position: relative;
+    background: transparent;
+    font-weight: bolder;
+    left: -1.9rem;
+
+}
+
+.Frase2 {
+    position: relative;
+    background: transparent;
+    font-weight: bolder;
+    left: -2rem;
+    color: #B4AC03;
+
+}
+
+.titulo {
+    position: relative;
+    color: #CC1A74;
+    background: transparent;
+    left: -1.8rem;
 }
 
 
 
 .section-Link a {
-    margin: 0 30px; /* Espaçamento horizontal entre os links */
-    color: #000; /* Cor do texto */
-    text-decoration: none; /* Remover sublinhado dos links */
-    font-size: 20px; /* Tamanho da fonte dos ícones */
+    margin: 0 30px;
+    /* Espaçamento horizontal entre os links */
+    color: #000;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Remover sublinhado dos links */
+    font-size: 20px;
+    /* Tamanho da fonte dos ícones */
+    position: relative;
+    top: -1.5rem;
+}
+
+.Total {
+    position: relative;
+    top: -4.5rem;
+    left: -10rem;
+    font-weight: bolder;
+}
+
+.Valor {
+
+    position: relative;
+    top: -7rem;
+    left: 7rem;
+    font-weight: bolder;
+    background: transparent;
+    color: #B4AC03;
 }
 
 
 .button-container {
-    text-align: center; /* Centraliza o conteúdo dentro do container */
-    margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+    text-align: center;
+    /* Centraliza o conteúdo dentro do container */
+    top: -7rem;
+    left: -1rem;
+    position: relative;
 }
 
 .white-button {
-    background-color: #CC1A74; /* Cor de fundo do botão */
-    color: #FFFFFF; /* Cor do texto do botão */
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    border: 2px solid #000000; /* Borda do botão */
-    border-radius: 18px; /* Borda arredondada */
-    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    background-color: #CC1A74;
+    /* Cor de fundo do botão */
+    color: #FFFFFF;
+    /* Cor do texto do botão */
+    padding: 10px 20px;
+    /* Espaçamento interno do botão */
+    border: 2px solid #000000;
+    /* Borda do botão */
+    border-radius: 18px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Altera o cursor ao passar sobre o botão */
     width: 349px;
     height: 50px;
 }
 
 .white-button:hover {
-    background-color: #b24c7f; /* Cor de fundo ao passar o mouse sobre o botão */
+    background-color: #b24c7f;
+    /* Cor de fundo ao passar o mouse sobre o botão */
 }
 
 div {
     text-align: center;
-    margin-top: 20px; /* Adicione margem para separar do conteúdo acima */
+    margin-top: 20px;
+    /* Adicione margem para separar do conteúdo acima */
 }
 
 /* Estilos para o link */
@@ -43,44 +194,428 @@ div {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #000000; /* Cor do texto */
-    font-size: 25px;
+    color: #000000;
+    /* Cor do texto */
+    font-size: 1.5rem;
     font-weight: bold;
+    top: -4rem;
+    position: relative;
 }
 
 /* Estilos hover para o link */
 .beck_menu:hover {
-    color: #2980b9; /* Cor de fundo ao passar o mouse */
+    color: #2980b9;
+    /* Cor de fundo ao passar o mouse */
+}
+
+.Order {
+
+    position: relative;
+    left: -6.6rem;
+    font-weight: bolder;
 }
 
 .Label-float {
     position: relative;
-    margin-bottom: 20px; /* Adiciona margem inferior para espaçamento */
+    top: -10rem;
+    left: -1rem;
+
 }
 
 .Label-float input {
-    width: 80%; /* Preenche toda a largura do contêiner */
-    padding: 10px; /* Adiciona preenchimento interno */
-    font-size: 16px; /* Ajusta o tamanho da fonte */
-    border: 2px solid #ccc; /* Adiciona uma borda com cor cinza */
-    border-radius: 10px; /* Arredonda as bordas */
-    outline: none; /* Remove a borda de foco padrão */
+    width: 80%;
+    /* Preenche toda a largura do contêiner */
+    padding: 10px;
+    /* Adiciona preenchimento interno */
+    font-size: 16px;
+    /* Ajusta o tamanho da fonte */
+    border: 2px solid #ccc;
+    /* Adiciona uma borda com cor cinza */
+    border-radius: 10px;
+    /* Arredonda as bordas */
+    outline: none;
+    /* Remove a borda de foco padrão */
 }
 
 .Label-float label {
     position: absolute;
     top: 0;
-    left:-10px; /* Adiciona um recuo ao lado esquerdo para a animação */
+    left: -10px;
+    /* Adiciona um recuo ao lado esquerdo para a animação */
     padding: 5px;
-    font-size: 14px; /* Ajusta o tamanho da fonte do rótulo */
-    pointer-events: none; /* Garante que o rótulo não interfira nos eventos do mouse */
-    transition: 0.3s ease-out; /* Adiciona uma transição suave */
-   
+    font-size: 14px;
+    /* Ajusta o tamanho da fonte do rótulo */
+    pointer-events: none;
+    /* Garante que o rótulo não interfira nos eventos do mouse */
+    transition: 0.3s ease-out;
+    /* Adiciona uma transição suave */
+
 }
 
-.Label-float input:focus + label,
-.Label-float input:not(:placeholder-shown) + label {
-    top: -15px; /* Move o rótulo para cima quando o input está focado ou tem conteúdo */
-    font-size: 12px; /* Ajusta o tamanho da fonte do rótulo quando movido para cima */
-    color: #2980b9; /* Altera a cor do rótulo quando o input está focado ou tem conteúdo */
+.Label-float input:focus+label,
+.Label-float input:not(:placeholder-shown)+label {
+    top: -15px;
+    /* Move o rótulo para cima quando o input está focado ou tem conteúdo */
+    font-size: 12px;
+    /* Ajusta o tamanho da fonte do rótulo quando movido para cima */
+    color: #2980b9;
+    /* Altera a cor do rótulo quando o input está focado ou tem conteúdo */
+}
+
+.vezes,.vezez{
+
+position: relative;
+color: #CC1A74;
+left: 6rem; 
+
+}
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* Estilos para telas de tamanho médio (largura entre 481px e 767px) */
+    .rombo-Gelato {
+        width: 12rem;
+        height: 12rem;
+        left: 1rem;
+    }
+
+    .rombo-Pizza {
+        left: 24rem;
+        top: -20rem;
+
+    }
+
+    .conteriner_frase {
+
+        left: -4rem;
+        top: -10rem;
+
+    }
+
+    .conteriner_Frase {
+        left: 18rem;
+        top: -32rem;
+    }
+
+    .Label-float {
+        top: -20rem;
+        left: -3rem;
+
+    }
+
+    .TotalValor {
+        position: relative;
+        top: -10rem;
+        left: -8rem;
+
+    }
+
+    .button-container {
+        text-align: center;
+        /* Centraliza o conteúdo dentro do container */
+        top: -18rem;
+        left: -3rem;
+
+
+    }
+
+    .white-button {
+        width: 549px;
+        height: 50px;
+    }
+
+    .Valor {
+
+        position: relative;
+        top: -7rem;
+        left: 20rem;
+        font-weight: bolder;
+        background: transparent;
+        color: #B4AC03;
+    }
+
+    .beck_menu {
+
+        top: -10rem;
+
+    }
+}
+
+@media (min-width: 767px) and (max-width: 867x) {
+
+    .conteriner_frase {
+
+        left: -1rem;
+        top: -10rem;
+
+    }
+
+    .conteriner_Frase {
+        left: 18rem;
+        top: -32rem;
+    }
+
+
+    /* ... (outros estilos responsivos) ... */
+}
+
+@media (min-width: 700px) and (max-width: 867px) {
+
+    /* Estilos para telas de tamanho médio (largura entre 481px e 767px) */
+    .rombo-Gelato {
+        width: 12rem;
+        height: 12rem;
+        left: 1rem;
+    }
+
+    .rombo-Pizza {
+        left: 20rem;
+        top: -20rem;
+
+    }
+
+    .conteriner_frase {
+
+        left: -1rem;
+        top: -10rem;
+
+    }
+
+    .conteriner_Frase {
+        left: 18rem;
+        top: -32rem;
+    }
+
+    .Label-float {
+        top: -20rem;
+        left: -3rem;
+
+    }
+
+    .TotalValor {
+        position: relative;
+        top: -10rem;
+        left: -2rem;
+
+    }
+
+    .button-container {
+        text-align: center;
+        /* Centraliza o conteúdo dentro do container */
+        top: -18rem;
+        left: -2rem;
+
+
+    }
+
+    .white-button {
+        width: 809px;
+        height: 50px;
+    }
+
+    .Valor {
+
+        position: relative;
+        top: -7rem;
+        left: 10rem;
+        font-weight: bolder;
+        background: transparent;
+        color: #B4AC03;
+    }
+
+    .beck_menu {
+
+        top: -10rem;
+
+    }
+
+    .Label-float {
+        position: relative;
+        top: -19rem;
+        left: 1rem;
+        width: 29.5rem;
+
+
+    }
+
+
+    /* ... (outros estilos responsivos) ... */
+}
+
+@media (min-width: 581px) and (max-width: 700px) {
+
+    /* Estilos para telas de tamanho médio (largura entre 481px e 767px) */
+    .rombo-Gelato {
+        width: 12rem;
+        height: 12rem;
+        left: 1rem;
+    }
+
+    .rombo-Pizza {
+        left: 20rem;
+        top: -20rem;
+
+    }
+
+    .conteriner_frase {
+
+        left: -1rem;
+        top: -10rem;
+
+    }
+
+    .conteriner_Frase {
+        left: 18rem;
+        top: -32rem;
+    }
+
+    .Label-float {
+        top: -20rem;
+        left: -3rem;
+
+    }
+
+    .TotalValor {
+        position: relative;
+        top: -10rem;
+        left: -2rem;
+
+    }
+
+    .button-container {
+        text-align: center;
+        /* Centraliza o conteúdo dentro do container */
+        top: -18rem;
+        left: -2rem;
+
+
+    }
+
+    .white-button {
+        width: 409px;
+        height: 50px;
+    }
+
+    .Valor {
+
+        position: relative;
+        top: -7rem;
+        left: 10rem;
+        font-weight: bolder;
+        background: transparent;
+        color: #B4AC03;
+    }
+
+    .beck_menu {
+
+        top: -10rem;
+
+    }
+
+    .Label-float {
+        position: relative;
+        top: -19rem;
+        left: 1rem;
+        width: 29.5rem;
+
+
+    }
+
+
+    /* ... (outros estilos responsivos) ... */
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    /* Estilos para telas de tamanho médio (largura entre 481px e 767px) */
+    .rombo-Gelato {
+        width: 12rem;
+        height: 12rem;
+        left: 1rem;
+    }
+
+    .rombo-Pizza {
+        left: 24rem;
+        top: -20rem;
+
+    }
+
+    #number {
+        width: 24rem;
+    }
+
+    .conteriner_frase {
+
+        left: -9rem;
+        top: -10rem;
+
+    }
+
+    .conteriner_Frase {
+        left: 14rem;
+        top: -32rem;
+    }
+
+    .Label-float {
+        top: -20rem;
+        left: -13rem;
+
+    }
+
+    .TotalValor {
+        position: relative;
+        top: -10rem;
+        left: -12rem;
+
+    }
+
+    .button-container {
+        text-align: center;
+        /* Centraliza o conteúdo dentro do container */
+        top: -18rem;
+        left: -16rem;
+
+
+    }
+
+    .white-button {
+        width: 249px;
+        height: 50px;
+    }
+
+    .Valor {
+
+        position: relative;
+        top: -7rem;
+        left: 2rem;
+        font-weight: bolder;
+        background: transparent;
+        color: #B4AC03;
+    }
+
+    .beck_menu {
+
+        top: -10rem;
+
+    }
+
+    .Pizza {
+        left: 6rem;
+        position: relative;
+
+
+
+
+
+    }
+
+
+    /* ... (outros estilos responsivos) ... */
 }
