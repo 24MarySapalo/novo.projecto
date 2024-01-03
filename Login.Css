@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
+    overflow: hidden;
     
 }
 
@@ -154,18 +155,18 @@ a{
 /* Estilo para os ícones dentro dos contêineres */
 .icon-container img {
     
-    width: auto; /* Ajusta a largura da imagem para 100% do contêiner */
-    height: 80%; /* Ajusta a altura da imagem para 100% do contêiner */
-    object-fit: cover; /* Mantém a proporção da imagem e cobre completamente o espaço do contêiner */
+    width: auto;
+    height: 80%; 
+    object-fit: cover; 
     display: block; 
     object-fit: cover;
     display: block;
     
-    /* Adições para centralizar a imagem */
-    margin: auto; /* Centraliza horizontalmente */
+
+    margin: auto; 
     position: relative;
     top: 50%;
-    transform: translateY(-50%); /* Remove espaço extra abaixo da imagem quando definimos a altura automática */
+    transform: translateY(-50%); 
 }
 
 p{
@@ -175,21 +176,21 @@ p{
 
 
 .Cadastro {
-    text-decoration: none; /* Remove o sublinhado padrão */
-    color: #ffffff; /* Define a cor do texto (substitua pela cor desejada) */
-    font-weight: bold; /* Opcional: Define a espessura da fonte como negrito */
+    text-decoration: none; 
+    color: #ffffff; 
+    font-weight: bold; 
 }
 
 .Cadastro:hover {
-    text-decoration: none; /* Adiciona sublinhado ao passar o mouse */
-    color: #792567; /* Opcional: Muda a cor do texto ao passar o mouse */
+    text-decoration: none; 
+    color: #792567; 
 }
 
 
 .Sign {
    font-size: 14px;
-    color: #ffffff; /* Define a cor do texto (substitua pela cor desejada) */
-    font-weight: bold; /* Opcional: Define a espessura da fonte como negrito */
+    color: #ffffff;
+    font-weight: bold; 
 }
 
 /* Estilos para telas grandes (por exemplo, desktops) */
@@ -203,7 +204,7 @@ p{
 /* Estilos para telas médias (por exemplo, tablets) */
 @media only screen and (max-width: 1199px) and (min-width: 768px) {
     .icon-container {
-        width: 40px; /* Ajuste o tamanho conforme necessário para telas médias */
+        width: 40px; 
         height: 30px;
     }
 }
@@ -211,7 +212,7 @@ p{
 /* Estilos para telas pequenas (por exemplo, smartphones) */
 @media only screen and (max-width: 767px) {
     .icon-container {
-        width: 40px; /* Ajuste o tamanho conforme necessário para telas pequenas */
+        width: 40px; 
         height: 20px;
     }
 }

@@ -1,15 +1,13 @@
 * {
-
     background-color: white;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .Gelato {
     left: 2rem;
-
-
-
-
-
 }
 
 .rombo-Gelato {
@@ -21,8 +19,6 @@
     left: 2rem;
     border-radius: 1rem;
     position: relative;
-
-
 }
 
 .Gelado {
@@ -60,11 +56,6 @@
 
 .Pizza {
     left: 2rem;
-
-
-
-
-
 }
 
 .rombo-Pizza {
@@ -271,11 +262,6 @@ left: 6rem;
 }
 
 
-
-
-
-
-
 @media (min-width: 481px) and (max-width: 767px) {
 
     /* Estilos para telas de tamanho médio (largura entre 481px e 767px) */
@@ -321,8 +307,6 @@ left: 6rem;
         /* Centraliza o conteúdo dentro do container */
         top: -18rem;
         left: -3rem;
-
-
     }
 
     .white-button {
@@ -360,9 +344,6 @@ left: 6rem;
         left: 18rem;
         top: -32rem;
     }
-
-
-    /* ... (outros estilos responsivos) ... */
 }
 
 @media (min-width: 700px) and (max-width: 867px) {
@@ -407,7 +388,6 @@ left: 6rem;
 
     .button-container {
         text-align: center;
-        /* Centraliza o conteúdo dentro do container */
         top: -18rem;
         left: -2rem;
 
@@ -443,9 +423,6 @@ left: 6rem;
 
 
     }
-
-
-    /* ... (outros estilos responsivos) ... */
 }
 
 @media (min-width: 581px) and (max-width: 700px) {
@@ -523,12 +500,7 @@ left: 6rem;
         top: -19rem;
         left: 1rem;
         width: 29.5rem;
-
-
     }
-
-
-    /* ... (outros estilos responsivos) ... */
 }
 
 
@@ -610,12 +582,5 @@ left: 6rem;
         left: 6rem;
         position: relative;
 
-
-
-
-
     }
-
-
-    /* ... (outros estilos responsivos) ... */
 }

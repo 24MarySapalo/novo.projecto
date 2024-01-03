@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-
 
 body {
 
@@ -14,19 +12,16 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 3px;
-    flex: 1 1 100vw;
+    flex: 1 1 100vw; 
 }
 
 .container-principal {
     width: 100%;
     max-width: auto;
-    /* ou o valor desejado */
     justify-content: center;
-
     margin-bottom: 0;
     background-color: white;
-    height: 120rem;
-    
+    height: 120rem;  
 }
 
 
@@ -36,12 +31,7 @@ body {
 
 #icon-container:active {
     transform: scale(0.9);
-    /* Reduzir a escala ao clicar */
 }
-
-
-
-
 
 .container {
     display: flex;
@@ -52,39 +42,25 @@ body {
 
 .image-container {
     width: 150px;
-    /* Largura desejada para o retângulo */
     height: 100px;
-    /* Altura desejada para o retângulo */
     overflow: hidden;
-    /* Garante que a imagem não ultrapasse as dimensões do contêiner */
     margin: 10px;
     background-color: #dacbcb;
     border-radius: 9px;
     display: flex;
-    /* Centraliza a imagem dentro do contêiner */
     align-items: center;
-    /* Centraliza verticalmente */
     justify-content: center
 }
 
 img {
     width: 80%;
-    /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
     height: auto;
-    /* Mantém a proporção original da imagem */
     display: block;
-    /* Remove qualquer espaçamento indesejado abaixo da imagem */
     position: relative;
-    /* Necessário para controlar a posição da imagem */
     z-index: 2;
-    /* Z-index maior para que a imagem apareça acima do rombo */
     background-color: transparent;
 
 }
-
-
-
-
 
 
 .containerP {
@@ -96,19 +72,14 @@ img {
 
 .containerR {
     display: inline-block;
-    /* Isso faz com que os blocos fiquem em linha */
     margin: 0;
-    /* Ajuste conforme necessário para o espaçamento desejado */
 }
 
 .rombo-container1,
 .rombo-container2 {
     width: 14rem;
-    /* Largura do rombo (ajuste conforme necessário) */
     height: 16rem;
-    /* Altura do rombo (ajuste conforme necessário) */
     background-color: #D9C9C9;
-    /* Cor de fundo do rombo (ajuste conforme necessário) */
     position: relative;
     border-radius: 1.2rem;
 
@@ -126,53 +97,36 @@ img {
     border-radius: 1.2rem;
     left: 12rem;
     top: 3rem;
-
-
 }
 
 .Burg,
 .Gela {
 
     display: block;
-    /* Remove qualquer espaçamento indesejado abaixo da imagem */
     position: relative;
-    /* Necessário para controlar a posição da imagem */
     z-index: 2;
-    /* Z-index maior para que a imagem apareça acima do rombo */
     background-color: transparent;
-
-
-
 }
 
 .Burg {
     width: 9rem;
-    /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
     height: 9rem;
-    /* Mantém a proporção original da imagem */
     left: 2.5rem;
     top: -10.9rem;
 }
 
 
 .Gela {
-
     width: 9rem;
-    /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
     height: 9rem;
-    /* Mantém a proporção original da imagem */
     left: 14.5rem;
     top: -10.9rem;
-
-
 }
 
 .Textimg,
 .Textamg {
     position: relative;
-    /* Necessário para controlar a posição da imagem */
     z-index: 2;
-    /* Z-index maior para que a imagem apareça acima do rombo */
     background-color: transparent;
     font-weight: bold;
 
@@ -193,7 +147,6 @@ img {
 .add-icon2 {
     position: relative;
     color: #28a745;
-    /* Cor verde */
     cursor: pointer;
     background-color: transparent;
     font-weight: bold;
@@ -217,7 +170,6 @@ img {
 
     position: relative;
     color: #28a745;
-    /* Cor verde */
     cursor: pointer;
     background-color: transparent;
     font-weight: bold;
@@ -239,43 +191,33 @@ img {
 
 .profile-circle {
     width: 2rem;
-    /* Ajuste conforme necessário para o tamanho do círculo desejado */
     height: 2rem;
-    /* Ajuste conforme necessário para o tamanho do círculo desejado */
     border-radius: 1.5rem;
-    /* Transforma o contêiner em um círculo */
     overflow: hidden;
-    /* Garante que a imagem respeite a borda arredondada */
     display: inline-block;
     background-color: #c6b1b1;
 }
 
 .profile-circle img {
     width: 1.8rem;
-    /* Ajusta a largura da imagem para preencher o contêiner circular */
     height: 2rem;
-    /* Ajusta a altura da imagem para preencher o contêiner circular */
-    /* Mantém a proporção da imagem e cobre completamente o espaço do contêiner circular */
     top: -0rem;
     display: block;
-    /* Remove espaço extra abaixo da imagem quando definimos a altura automática */
 }
 
 .Promocional {
     display: inline-block;
-    /* Isso faz com que os blocos fiquem em linha */
     margin: 10px;
-    /* Ajuste conforme necessário para o espaçamento desejado */
     top: -270px;
     position: relative;
 }
 
 .Most {
     display: inline-block;
-    /* Isso faz com que os blocos fiquem em linha */
     top: -68rem;
     position: relative;
     left: 1.3rem;
+   
 
 }
 
@@ -283,27 +225,17 @@ img {
     
     position: relative;
     margin: 0 1.4rem;
-    /* Espaçamento horizontal entre os links */
     color: #000;
-    /* Cor do texto */
     text-decoration: none;
-    /* Remover sublinhado dos links */
     font-size: 1.2rem;
-    /* Tamanho da fonte dos ícones */
     left: 1.6rem;
     top: 4rem;
-
 }
 
 .rombo-Promocional {
     width: 50rem;
-    /* Largura do rombo (ajuste conforme necessário) */
     height: 10rem;
-    /* Altura do rombo (ajuste conforme necessário) */
     background: linear-gradient(to bottom, #D11770, #8F369A, #644AB5);
-    /* Cor de fundo do rombo (ajuste conforme necessário) */
-    /* Espaço entre o rombo e a imagem (ajuste conforme necessário) */
-    /* Move para a direita */
     position: relative;
     border-radius: 20px;
     left: 1rem;
@@ -315,14 +247,9 @@ img {
 
 .BatataF {
     width: 10rem;
-    /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
     height: 7rem;
-    /* Mantém a proporção original da imagem */
     display: block;
-    /* Remove qualquer espaçamento indesejado abaixo da imagem */
-
     z-index: 2;
-    /* Z-index maior para que a imagem apareça acima do rombo */
     background-color: transparent;
     left: 38rem;
     top: -50.9rem;
@@ -385,51 +312,34 @@ img {
 
 }
 
-
-
 /*Estilo Conteiner Home em cima*/
 
 .containerTop {
     display: inline-block;
-    /* Isso faz com que os blocos fiquem em linha */
     margin: 0;
-    /* Ajuste conforme necessário para o espaçamento desejado */
 }
 
 .rombo-containerall {
     width: 10.6rem;
-    /* Largura do rombo (ajuste conforme necessário) */
     height: 9rem;
-    /* Altura do rombo (ajuste conforme necessário) */
     background-color: #8F369A;
-    /* Cor de fundo do rombo (ajuste conforme necessário) */
     top: 5rem;
     position: relative;
     border-radius: 1em;
     left: 1rem;
-
-
-
 
 }
 
 
 .All {
     width: 9rem;
-    /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
     height: 7rem;
-    /* Mantém a proporção original da imagem */
     display: block;
-    /* Remove qualquer espaçamento indesejado abaixo da imagem */
     position: relative;
-    /* Necessário para controlar a posição da imagem */
     z-index: 2;
-    /* Z-index maior para que a imagem apareça acima do rombo */
     background-color: transparent;
     left: 1.9rem;
     top: -3rem;
-
-
 
 }
 
@@ -450,12 +360,8 @@ img {
 
 .rombo-containerBuger {
     width: 10.6rem;
-    /* Largura do rombo (ajuste conforme necessário) */
     height: 9rem;
-    /* Altura do rombo (ajuste conforme necessário) */
     background-color: #D9C9C9;
-    ;
-    /* Cor de fundo do rombo (ajuste conforme necessário) */
     top: -13.8rem;
     position: relative;
     border-radius: 1em;
@@ -466,15 +372,10 @@ img {
 
 .Hambur {
     width: 9rem;
-    /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
     height: 7rem;
-    /* Mantém a proporção original da imagem */
     display: block;
-    /* Remove qualquer espaçamento indesejado abaixo da imagem */
     position: relative;
-    /* Necessário para controlar a posição da imagem */
     z-index: 2;
-    /* Z-index maior para que a imagem apareça acima do rombo */
     background-color: transparent;
     left: 13.8rem;
     top: -22rem;
@@ -502,33 +403,21 @@ img {
 
 .rombo-containerPizza {
     width: 10.6rem;
-    /* Largura do rombo (ajuste conforme necessário) */
     height: 9rem;
-    /* Altura do rombo (ajuste conforme necessário) */
     background-color: #D9C9C9;
-    /* Cor de fundo do rombo (ajuste conforme necessário) */
     top: -32.6rem;
     position: relative;
     border-radius: 1em;
     left: 25rem;
-
-    /* Move para a esquerda */
-
-
 }
 
 
 .Pizza {
     width: 12rem;
-    /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
     height: 7rem;
-    /* Mantém a proporção original da imagem */
     display: block;
-    /* Remove qualquer espaçamento indesejado abaixo da imagem */
     position: relative;
-    /* Necessário para controlar a posição da imagem */
     z-index: 2;
-    /* Z-index maior para que a imagem apareça acima do rombo */
     background-color: transparent;
     left: 23.8rem;
     top: -40.5rem;
@@ -553,32 +442,22 @@ img {
 
 .rombo-containerGelado {
     width: 10.6rem;
-    /* Largura do rombo (ajuste conforme necessário) */
     height: 9rem;
-    /* Altura do rombo (ajuste conforme necessário) */
     background-color: #D9C9C9;
-    /* Cor de fundo do rombo (ajuste conforme necessário) */
     top: -51.4rem;
     position: relative;
     border-radius: 1em;
     left: 37.9rem;
-
-    /* Move para a esquerda */
 
 }
 
 
 .Gelado {
     width: 9rem;
-    /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
     height: 7rem;
-    /* Mantém a proporção original da imagem */
     display: block;
-    /* Remove qualquer espaçamento indesejado abaixo da imagem */
     position: relative;
-    /* Necessário para controlar a posição da imagem */
     z-index: 2;
-    /* Z-index maior para que a imagem apareça acima do rombo */
     background-color: transparent;
     left: 38.8rem;
     top: -59.4rem;
@@ -620,28 +499,21 @@ img {
     .container-principal {
         width: 100%;
         max-width: auto;
-        /* ou o valor desejado */
         justify-content: center;
-
         margin-bottom: 0;
         background-color: white;
     }
 
     .containerTop {
         display: inline-block;
-        /* Isso faz com que os blocos fiquem em linha */
         margin: 0;
-        /* Ajuste conforme necessário para o espaçamento desejado */
         width: 12rem;
         height: 10rem;
     }
 
     .rombo-containerall {
         width: 6.5rem;
-        /* Largura do rombo (ajuste conforme necessário) */
         height: 6rem;
-        /* Altura do rombo (ajuste conforme necessário) */
-        /* Cor de fundo do rombo (ajuste conforme necessário) */
         top: 2rem;
         position: relative;
         border-radius: 1em;
@@ -652,22 +524,16 @@ img {
 
     .Promocional {
         display: inline-block;
-        /* Isso faz com que os blocos fiquem em linha */
         top: -7rem;
         position: relative;
     }
 
     .All {
         width: 6rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 4.5rem;
-        /* Mantém a proporção original da imagem */
         display: block;
-        /* Remove qualquer espaçamento indesejado abaixo da imagem */
         position: relative;
-        /* Necessário para controlar a posição da imagem */
         z-index: 2;
-        /* Z-index maior para que a imagem apareça acima do rombo */
         background-color: transparent;
         left: 1.2rem;
         top: -3.2rem;
@@ -691,12 +557,8 @@ img {
 
     .rombo-containerPizza {
         width: 6.5rem;
-        /* Largura do rombo (ajuste conforme necessário) */
         height: 6rem;
-        /* Altura do rombo (ajuste conforme necessário) */
         background-color: #D9C9C9;
-        ;
-        /* Cor de fundo do rombo (ajuste conforme necessário) */
         top: -26.3rem;
         position: relative;
         border-radius: 1em;
@@ -708,15 +570,10 @@ img {
 
     .Pizza {
         width: 7rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 6rem;
-        /* Mantém a proporção original da imagem */
         display: block;
-        /* Remove qualquer espaçamento indesejado abaixo da imagem */
         position: relative;
-        /* Necessário para controlar a posição da imagem */
         z-index: 2;
-        /* Z-index maior para que a imagem apareça acima do rombo */
         background-color: transparent;
         left: 15rem;
         top: -32.2rem;
@@ -738,12 +595,8 @@ img {
 
     .rombo-containerBuger {
         width: 6.5rem;
-        /* Largura do rombo (ajuste conforme necessário) */
         height: 6rem;
-        /* Altura do rombo (ajuste conforme necessário) */
         background-color: #D9C9C9;
-        ;
-        /* Cor de fundo do rombo (ajuste conforme necessário) */
         top: -11.4rem;
         position: relative;
         border-radius: 1em;
@@ -755,21 +608,13 @@ img {
 
     .Hambur {
         width: 6rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 6rem;
-        /* Mantém a proporção original da imagem */
         display: block;
-        /* Remove qualquer espaçamento indesejado abaixo da imagem */
         position: relative;
-        /* Necessário para controlar a posição da imagem */
         z-index: 2;
-        /* Z-index maior para que a imagem apareça acima do rombo */
         background-color: transparent;
         left: 8.5rem;
         top: -17.4rem;
-
-
-
     }
 
     .TextiHambur {
@@ -785,12 +630,8 @@ img {
 
     .rombo-containerGelado {
         width: 6.5rem;
-        /* Largura do rombo (ajuste conforme necessário) */
         height: 6rem;
-        /* Altura do rombo (ajuste conforme necessário) */
         background-color: #D9C9C9;
-        ;
-        /* Cor de fundo do rombo (ajuste conforme necessário) */
         top: -41rem;
         position: relative;
         border-radius: 1em;
@@ -802,15 +643,10 @@ img {
 
     .Gelado {
         width: 6rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 6rem;
-        /* Mantém a proporção original da imagem */
         display: block;
-        /* Remove qualquer espaçamento indesejado abaixo da imagem */
         position: relative;
-        /* Necessário para controlar a posição da imagem */
         z-index: 2;
-        /* Z-index maior para que a imagem apareça acima do rombo */
         background-color: transparent;
         left: 23rem;
         top: -47.4rem;
@@ -832,9 +668,7 @@ img {
 
     .rombo-Promocional {
         width: 27.8rem;
-        /* Largura do rombo (ajuste conforme necessário) */
         height: 10rem;
-        /* Altura do rombo (ajuste conforme necessário) */
         position: relative;
         border-radius: 20px;
 
@@ -843,13 +677,9 @@ img {
 
     .BatataF {
         width: 10rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 7rem;
-        /* Mantém a proporção original da imagem */
         display: block;
-        /* Remove qualquer espaçamento indesejado abaixo da imagem */
         z-index: 2;
-        /* Z-index maior para que a imagem apareça acima do rombo */
         background-color: transparent;
         left: 18.8rem;
         top: -50.6rem;
@@ -858,7 +688,6 @@ img {
 
     .Most {
         display: inline-block;
-        /* Isso faz com que os blocos fiquem em linha */
         top: -60.9rem;
         position: relative;
         left: 1.3rem;
@@ -868,11 +697,8 @@ img {
     .rombo-container1,
     .rombo-container2 {
         width: 12rem;
-        /* Largura do rombo (ajuste conforme necessário) */
         height: 16rem;
-        /* Altura do rombo (ajuste conforme necessário) */
         background-color: #D9C9C9;
-        /* Cor de fundo do rombo (ajuste conforme necessário) */
         position: relative;
         border-radius: 1.2rem;
 
@@ -897,9 +723,7 @@ img {
     .Textimg,
     .Textamg {
         position: relative;
-        /* Necessário para controlar a posição da imagem */
         z-index: 2;
-        /* Z-index maior para que a imagem apareça acima do rombo */
         background-color: transparent;
         font-weight: bold;
 
@@ -937,9 +761,7 @@ img {
     .Gela {
 
         width: 9rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 9rem;
-        /* Mantém a proporção original da imagem */
         left: 5rem;
         top: -10.9rem;
 
@@ -950,13 +772,9 @@ img {
         display: inline-block;
         position: relative;
         margin: 0 1.4rem;
-        /* Espaçamento horizontal entre os links */
         color: #000;
-        /* Cor do texto */
         text-decoration: none;
-        /* Remover sublinhado dos links */
         font-size: 1.2rem;
-        /* Tamanho da fonte dos ícones */
         left: 1.6rem;
         top: -22rem;
 
@@ -1410,14 +1228,9 @@ img {
 
     .BatataF {
         width: 15rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 8rem;
-        /* Mantém a proporção original da imagem */
         display: block;
-        /* Remove qualquer espaçamento indesejado abaixo da imagem */
-    
         z-index: 2;
-        /* Z-index maior para que a imagem apareça acima do rombo */
         background-color: transparent;
         left: 64rem;
         top: -43.9rem;
@@ -1433,7 +1246,6 @@ img {
 
     .Most {
         display: inline-block;
-        /* Isso faz com que os blocos fiquem em linha */
         top: -98rem;
         position: relative;
         left: 1.3rem;
@@ -1457,9 +1269,7 @@ img {
 
     .Burg {
         width: 9rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 9rem;
-        /* Mantém a proporção original da imagem */
         left: 2.5rem;
         top: -10.9rem;
     }
@@ -1468,9 +1278,7 @@ img {
     .Gela {
     
         width: 9rem;
-        /* Ajusta a largura da imagem para ocupar 100% do contêiner pai */
         height: 9rem;
-        /* Mantém a proporção original da imagem */
         left:44.5rem;
         top: -10.9rem;
     
@@ -1532,13 +1340,9 @@ img {
         display: inline-block;
         position: relative;
         margin: 0 1.4rem;
-        /* Espaçamento horizontal entre os links */
         color: #000;
-        /* Cor do texto */
         text-decoration: none;
-        /* Remover sublinhado dos links */
         font-size: 1.2rem;
-        /* Tamanho da fonte dos ícones */
         left: 1.6rem;
         top: -7rem;
     
