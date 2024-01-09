@@ -2,17 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
 }
 
 body {
-
+    position: relative;
     background: none;
     font-size: 16px;
-    height: 50rem;
     display: flex;
     flex-wrap: wrap;
     margin: 3px;
     flex: 1 1 100vw; 
+    height: -1000rem;
+   
 }
 
 .container-principal {
@@ -21,7 +23,7 @@ body {
     justify-content: center;
     margin-bottom: 0;
     background-color: white;
-    height: 120rem;  
+    height: 0rem;  
 }
 
 
@@ -41,10 +43,9 @@ body {
 }
 
 .image-container {
-    width: 150px;
-    height: 100px;
+    width: 15rem;
+    height: 10rem;
     overflow: hidden;
-    margin: 10px;
     background-color: #dacbcb;
     border-radius: 9px;
     display: flex;
@@ -229,7 +230,12 @@ img {
     text-decoration: none;
     font-size: 1.2rem;
     left: 1.6rem;
-    top: 4rem;
+    top: -40rem;
+}
+
+footer{
+    position: relative;
+    top: -49rem;
 }
 
 .rombo-Promocional {
